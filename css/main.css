@@ -1,0 +1,169 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600vh;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-white {
+    color: white;
+}
+
+.header {
+    background-color: #2993A1;
+    background-image: url('../img/bg-header.jpg');
+    background-size: cover;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.header .container h1 {
+    font-weight: bold;
+    font-size: 42pt;
+    text-align: center;
+    margin: 20px 0px 160px;
+}
+
+.header .container p {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    width: 40%;
+}
+
+.sobre-mi {
+    background-color: #7299FE;
+}
+
+.sobre-mi p {
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.sobre-mi button {
+    background-color: #D16EFF;
+    font-weight: bold;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: black 0px 3px 5px;
+}
+
+.mis-skills {
+    background-color: #9022FF;
+}
+
+.mis-skills ul {
+    display: block;
+    width: 100%;
+}
+
+.mis-skills ul li {
+    display: inline-block;
+    width: 49.6%;
+    padding: 10px;
+}
+
+.mis-skills ul li p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mis-skills ul li .loading {
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.mis-skills ul li .loading .charge {
+    background-color: #57EFF9;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.portafolio {
+    background-color: #FFD233;
+}
+
+.portafolio .cards {
+    display: block;
+    width: 100%;
+}
+
+.portafolio .cards img {
+    display: inline-block;
+    max-width: 22%;
+    margin: 1%;
+}
+
+.cliente {
+    background-color: #3F4E62;
+}
+
+.cliente .cards {
+    display: block;
+    width: 100%;
+}
+
+.cliente .cards img {
+    display: inline-block;
+    max-width: 22%;
+    margin: 1%;
+}
+
+.contacto {
+    background-color: #1687A0;
+}
+
+.contacto form .row {
+    display: flex;
+    width: 100%;
+}
+
+.contacto form .row input,
+.contacto form .row textarea {
+    padding: 20px;
+}
+
+.contacto form .row input {
+    width: 48%;
+    margin: 2%;
+}
+
+.contacto form .row input:first-of-type {
+    margin-left: 0%;
+}
+
+.contacto form .row input:last-of-type {
+    margin-right: 0%;
+}
+
+.contacto form .row textarea {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.contacto form .row button {
+    background-color: #233451;
+    font-weight: bold;
+    border: none;
+    padding: 30px 60px;
+    margin: 50px auto auto auto;
+}
